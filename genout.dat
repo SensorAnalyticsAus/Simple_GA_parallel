@@ -1,0 +1,16 @@
+Population size (popsize) =   100
+Chromosome length (lchrom) =    24
+Maximum # of generations (maxgen) 100000
+Crossover probability (pcross) = 6.00000e-01
+Mutation probability (pmutation) = 3.33000e-02
+
+ Initial Generation Statistics
+---------------------------------
+
+Initial population maximum fitness = 6.96023e+02
+Initial population average fitness = -1.50033e+06
+Initial population minimum fitness = -2.52492e+06
+Initial population sum of  fitness = -1.50033e+08
+
+
+
