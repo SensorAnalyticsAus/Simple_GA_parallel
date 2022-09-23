@@ -16,4 +16,4 @@ mpirun -np 4 ./sga_parr
 ## Acknowledgements
 ##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning. MPI parallelisation by N. Zaidi.
 
-
+##### ©SAA 2022
