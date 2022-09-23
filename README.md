@@ -1,4 +1,4 @@
-## Prequisite
+## Prerequisite
 ##### Install Message Passing Interface (MPI) from: <br> <p><p> https://www.mpich.org/downloads/ <p> or <p> https://www.open-mpi.org/software/ompi/v4.1/
 ## Compile
 Run the following command in the downloaded folder:
