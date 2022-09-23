@@ -11,6 +11,8 @@ make
 mpirun -np 4 ./sga_parr
 </code></pre>
 ##### The number of processors, *-np*, should be set equal to the number of cores of your CPU.
+## Files
+##### SGA parameters are set in *sga3.var*. Explanation of these parameters can be found in Simple Genetic Algorithm Explainer.pdf [Section 4]. The objective function is written in *obj3.c*.
 ## Acknowledgements
 ##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning. MPI parallelisation by N. Zaidi.
 
