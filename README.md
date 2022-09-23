@@ -14,6 +14,6 @@ mpirun -np 4 ./sga_parr
 ## Files
 ##### SGA parameters are set in *sga3.var*. Explanation of these parameters can be found in Simple Genetic Algorithm Explainer.pdf [Section 4]. The objective function is written in *obj3.c*.
 ## Acknowledgements
-##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning. MPI parallelisation by N. Zaidi.
+##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning 1989. MPI parallelisation by N. Zaidi 2016.
 
 ##### ©SAA 2022
