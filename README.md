@@ -5,10 +5,11 @@ sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev libgtk2.0-dev ope
 ````
 ##### Or build from either of these sources: <br> <p><p> https://www.mpich.org/downloads/ <p> https://www.open-mpi.org/software/ompi/v4.1/
 ## Compile
-Run the following command in the downloaded folder:
-<pre><code>
+````
+git clone https://github.com/SensorAnalyticsAus/Simple_GA_parallel.git
 make
-</code></pre>
+make clean
+````
 ## Run
 ##### For quad core processor.
 <pre><code>
@@ -20,4 +21,4 @@ mpirun -np 4 ./sga_parr
 ## Acknowledgements
 ##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning 1989. MPI parallelisation by N. Zaidi 2016.
 
-##### ©SAA 2022
+##### ©SAA 2024
