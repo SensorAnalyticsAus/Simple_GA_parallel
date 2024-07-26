@@ -7,6 +7,7 @@ sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev libgtk2.0-dev ope
 ## Compile
 ````
 git clone https://github.com/SensorAnalyticsAus/Simple_GA_parallel.git
+cd Simple_GA_parallel/
 make
 make clean
 ````
