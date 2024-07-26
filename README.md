@@ -1,5 +1,9 @@
 ## Prerequisite
-##### Install Message Passing Interface (MPI) from: <br> <p><p> https://www.mpich.org/downloads/ <p> or <p> https://www.open-mpi.org/software/ompi/v4.1/
+##### Install Message Passing Interface (MPI) 
+````
+sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev libgtk2.0-dev openmpi-doc
+````
+##### Or build from either of these sources: <br> <p><p> https://www.mpich.org/downloads/ <p> https://www.open-mpi.org/software/ompi/v4.1/
 ## Compile
 Run the following command in the downloaded folder:
 <pre><code>
