@@ -18,6 +18,6 @@ mpirun -np 4 ./sga_parr
 </code></pre>
 ##### The number of processors, *-np*, should be set equal to the number of cores of your CPU.
 ## Settings
-##### SGA parameters are set in *sga3.var*. 
+##### SGA parameters are set in `sga3.var`. 
 ## Acknowledgements
 ##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning 1989. MPI parallelisation by N. Zaidi 2016.
