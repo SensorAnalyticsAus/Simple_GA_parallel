@@ -1,5 +1,5 @@
 ## Prerequisite
-##### Install Message Passing Interface (MPI) 
+##### Install Message Passing Interface (MPI): 
 ````
 sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev openmpi-doc
 ````
@@ -12,12 +12,12 @@ make
 make clean
 ````
 ## Run
-##### For quad core processor.
+##### For quad core processor:
 <pre><code>
 mpirun -np 4 ./sga_parr
 </code></pre>
 ##### The number of processors, *-np*, should be set equal to the number of cores of your CPU.
 ## Settings
-##### SGA parameters are set in `sga3.var`. 
+##### SGA parameters are set in `sga3.var` 
 ## Acknowledgements
 ##### This C code is based upon D.E. Goldberg's Genetic Algorithms in Search, Optimisation and Machine Learning 1989. MPI parallelisation by N. Zaidi 2016.
